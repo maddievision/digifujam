@@ -50,7 +50,7 @@ class _7jamServer {
       .execSync('git rev-parse origin') // origin, HEAD, ...
       .toString().trim();
 
-    this.mConfig.StaticHostPrefix = this.mConfig.StaticHostPrefix.replaceAll("{GitRevision}", this.mConfig.gitRevision);
+    this.mConfig.HostPrefix = this.mConfig.StaticHostPrefix.replaceAll("{GitRevision}", this.mConfig.gitRevision);
     this.mConfig.LocalStaticHostPrefix = this.mConfig.LocalStaticHostPrefix.replaceAll("{GitRevision}", this.mConfig.gitRevision);
 
     // ------------------------------------------
