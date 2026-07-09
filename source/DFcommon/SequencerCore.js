@@ -12,7 +12,7 @@ const { gSeqLatchMode, gDefaultLatchModeID } = require('./DFUser');
 
 const SequencerSettings = {
   PatternCount : 4,
-  MaxDivs : 65,
+  MaxDivs : 129,
   MaxNoteOnsPerColumn : 8,
   RecentlyPlayedActivityThresholdMS : DFUtil.minutesToMS(30), 
 };
