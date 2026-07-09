@@ -1080,6 +1080,11 @@
         "streamInfoURL": ""
       },
       {
+        "name": "Radio 251",
+        "streamURL": "https://radio251.digifu.zone/stream",
+        "streamInfoURL": "https://radio251.digifu.zone/status-json.xsl?mount=/stream"
+      },
+      {
         "name": "Δ7 Radio",
         "streamURL": "https://radio.7jam.io/maj7",
         "streamInfoURL": "https://radio.7jam.io/status-json.xsl?mount=/maj7"
